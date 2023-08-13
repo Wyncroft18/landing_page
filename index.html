@@ -2,30 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head> 
 <body>
     <div class="header">
-        <h1>Header Logo</h1>
-        <ul>
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
-        </ul>
-    </div>
-    <div class="main">
-        <div class="title">
-            <h1>This website is awesome!</h1>
-            <p>This website has some subtext that goes here under the main title.</p>
-            <button>Sign up</button>
+        <div class="nav">
+            <p id="logo">Header Logo</p>
+            <ul>
+                <li>header link one</li>
+                <li>header link two</li>
+                <li>header link three</li>
+            </ul>
         </div>
-        <div class="image-placeholder">
-            This is a placeholder for an image
+        <div class="main">
+            <div class="title">
+                <p class="main-text">This website is awesome!</p>
+                <p id="secondary-text">This website has some subtext that goes here under the main title.</p>
+                <button class="button1">Sign up</button>
+            </div>
+            <div class="image-placeholder">
+                This is a placeholder for an image
+            </div>
         </div>
     </div>
     <div class="information">
-        <h2>Some random information</h2>
+        <p class="information-header">Some random information</p>
         <div class="information-images">
             <div class="one">
                 <div class="image-one"></div>
@@ -46,16 +49,25 @@
         </div>
     </div>
     <div class="qoute">
-        <div class="content">"All great things take time... Remember Rome wasn't built in a day"</div>
-        <div class="author">- I dont know who the author is tbh</div>
+        <div class="content">
+            <div class="text">"All great things take time... Remember Rome wasn't built in a day"</div>
+            <div class="author">-Someone... Probably</div>
+        </div>
+        
     </div>
     <div class="sign-up">
-        <p>Call to action! It's time!</p>
-        <p>Sign up to our product by clicking that button over there</p>
-        <button>Sign up</button>
+        <div class="container">
+            <div>
+                <p class="strong">Call to action! It's time!</p>
+                <p>Sign up to our product by clicking that button over there</p>
+            </div>
+            <div>
+                <button class="button2">Sign up</button>
+            </div>
+        </div>
     </div>
     <div class="footer">
-        <p>copyright &copy The Odin Project 2023</p>
+        <p>Copyright &copy The Odin Project 2023</p>
     </div>
 </body>
 </html>
